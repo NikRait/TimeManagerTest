@@ -70,7 +70,9 @@ namespace TimeManagerTest
                     }
                 }
                 if (indexer == listOfWatches.Count || indexer == int.MaxValue)
+                {
                     acts.Add(yourActivity);
+                }
                 return indexer;
 
             }
