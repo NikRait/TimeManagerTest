@@ -8,6 +8,7 @@ namespace TimeManagerTest
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             var user = new User("/");
             var watch = new Timer();
             var listOfActs = new List<string>();
